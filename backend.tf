@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "techbleat-terraform-state"
+    bucket = "trust-5-obey"
     key    = "dev/terraform.tfstate"
-    region = "eu-west-1"
+    region = "us-east-1"
   }
 }
